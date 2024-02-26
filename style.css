@@ -1,0 +1,45 @@
+.main{
+   display: block;
+   margin: 0 auto;
+   margin-top: 50px;
+   max-width: 500px;
+   height: 870px;
+   background-color: rgb(67, 241, 61);
+   padding-top: 20px;
+}
+
+.result{
+   display: block;
+   margin: 0 auto;
+   width: 80%;
+   height: 50px;
+   background-color:rgb(255, 255, 255);
+   padding-left: 20px;
+   padding-right: 20px;
+   font-size: 40px;
+   overflow: hidden;
+}
+
+.row{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   margin-top: 30px;
+   gap: 5px;
+}
+
+.btn{
+   width: 30%;
+   height: 100px;
+   background-color: blue;
+   font-size: 40px;
+   color: rgb(255, 255, 255);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.btn:hover{
+   cursor: pointer;
+   background-color: rgb(91, 91, 222);
+}
