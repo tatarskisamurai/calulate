@@ -8,7 +8,6 @@ const proc = document.querySelector('div.proc');
 const equal = document.querySelector('div.equal');
 const element = document.querySelector('div.result');
 const del = document.querySelector('div.del');
-
 equal.addEventListener('click', function () {
    if(result=='0'){
       result=''
@@ -47,7 +46,6 @@ num.forEach(item => {
       element.textContent = result;
    })
 })
-
 plus.addEventListener('click', function () {
    if(result=='0'){
       result=''
@@ -55,12 +53,10 @@ plus.addEventListener('click', function () {
    result += '+';
    element.textContent = result;
  });
-
 del.addEventListener('click', function () {
    result = '0';
    element.textContent = result;
  });
-
 proizv.addEventListener('click', function () {
    if(result=='0'){
       result=''
@@ -68,7 +64,6 @@ proizv.addEventListener('click', function () {
    result += '*';
    element.textContent = result;
  });
-
 chast.addEventListener('click', function () {
    if(result=='0'){
       result=''
@@ -76,12 +71,6 @@ chast.addEventListener('click', function () {
    result += '/';
    element.textContent = result;
 });
- 
-nul.addEventListener('click', function () {
-   result += '0';
-   element.textContent = result;
-});
-
 proc.addEventListener('click', function () {
    if(result=='0'){
       result=''
