@@ -28,7 +28,7 @@ equal.addEventListener('click', function () {
       result = +(array[0])%(+array[1]);
       element.textContent = +(array[0])%(+array[1]);
    }
-   if (result.includes("-)){
+   if (result.includes("-")){
       let array = result.split('-');
       result = +(array[0])-(+array[1]);
       element.textContent = +(array[0])-(+array[1]);
